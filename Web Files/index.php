@@ -1,11 +1,12 @@
-<!DOCTYPE html>
-
-<?php 
+<?php 	// define is_index (so we can include _func.php)
+	define("IS_INDEX",true);
 	// Stop headers being sent
 	ob_start(); 
 	// Get _func.php
 	require_once( '_func.php' );
 ?>
+
+<!DOCTYPE html>
 
 <head>
 
