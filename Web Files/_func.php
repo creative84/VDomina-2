@@ -1,4 +1,4 @@
-<?php
+<?php if(!defined("IS_INDEX")){echo 'Access Denied'; exit;} // limit access
 
 ob_start();
 
